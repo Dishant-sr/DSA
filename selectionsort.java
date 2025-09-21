@@ -17,7 +17,7 @@ public class selectionsort {
     
         System.out.println("After selection sort: ");
         for(int i=0; i<n; i++){
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
@@ -26,7 +26,7 @@ public class selectionsort {
         int n = arr.length;
         System.out.println("Before selection sort ");
         for(int i= 0; i< n; i++){
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
         selection_sort(arr,n);
